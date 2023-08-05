@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from './Tushti_Resume.pdf'
 
 const Hero = () => {
   return (
@@ -15,7 +16,9 @@ const Hero = () => {
                     <a href="https://www.linkedin.com/in/tushtiadlakha" target="_blank" rel="noopener noreferrer" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
                     <a href="https://twitter.com/Tushti_adlakha" target="_blank" rel="noopener noreferrer" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
                     <a href="https://github.com/Tushtiadlakha" target="_blank" rel="noopener noreferrer" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-    			</div>
+					<a href={resume} class="addMore" title="Resume" target="_blank" rel="noopener noreferrer" download="Tushti-Resume-document"><i class='bx bx-download' ></i></a>
+				</div>
+				
 			</div>
 				<img className='animate__animated animate__zoomInDown h-2/3 ' alt="tushti" src="./images/ProjectImages/me2.png"/>
 		</div>

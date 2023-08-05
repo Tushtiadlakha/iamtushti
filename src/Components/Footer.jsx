@@ -1,4 +1,5 @@
 import React from 'react'
+import resume from './Tushti_Resume.pdf'
 
 const Footer = () => {
   return (
@@ -60,6 +61,10 @@ const Footer = () => {
         >
           Achievements
         </a>
+      </li>
+
+      <li>
+      <a href={resume} class="addMore" title="Resume" target="_blank" rel="noopener noreferrer" download="Tushti-Resume-document">Resume<i class=' ml-1 bx bx-download' ></i></a>
       </li>
 
       
