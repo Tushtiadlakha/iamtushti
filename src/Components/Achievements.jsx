@@ -4,9 +4,9 @@ const Achievements = () => {
   return (
     <>
     <div id="achievements" class="container mx-auto lg:px-20" >
-        <h2 class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2 font-serif underline underline-offset-8">Positions of Responsibility</h2>
+        <h2 class="text-3xl text-center md:text-left md:text-4xl leading-normal md:leading-relaxed mb-2 font-serif underline underline-offset-8">Positions of Responsibility</h2>
 <div class="pt-12 flex items-center justify-center">
-    <div class="flex-wrap grid grid-cols-3 gap-6 sm:grid-cols-1 md:grid-cols-3 ">
+    <div class="flex-wrap grid grid-cols-1 gap-6 sm:grid-cols-1 md:grid-cols-3 ">
         
         <div class="relative bg-transparent py-6 px-6 rounded-3xl w-64 my-4 shadow-xl border-2 border-white">
             <div class="flex items-center absolute rounded-full py-4 px-4 shadow-xl bg-pink-500 left-4 -top-6">

@@ -5,8 +5,8 @@ const Timeline = () => {
 <section id="education">
     <div class="bg-black text-white py-1">
     <div class="container mx-auto flex flex-col items-start md:flex-row mb-12">
-      <div class="flex flex-col w-full mt-80 lg:w-1/3 px-8">
-        <p class="md:ml-10 text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2 font-serif underline underline-offset-8">EDUCATIONAL QUALIFICATIONS</p>
+      <div class="flex flex-col w-full mt-60 md:mt-70 lg:w-1/3 px-8">
+        <p class="md:ml-10 text-3xl text-center md:text-left md:text-4xl leading-normal md:leading-relaxed mb-2 font-serif underline underline-offset-8">EDUCATIONAL QUALIFICATIONS</p>
       </div>
       <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
         <div class="container mx-auto w-full h-full">

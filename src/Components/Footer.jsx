@@ -64,7 +64,7 @@ const Footer = () => {
       </li>
 
       <li>
-      <a href={resume} class="addMore" title="Resume" target="_blank" rel="noopener noreferrer" download="Tushti-Resume-document">Resume<i class=' ml-1 bx bx-download' ></i></a>
+      <a href={resume} class="addMore text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75" title="Resume" target="_blank" rel="noopener noreferrer" download="Tushti-Resume-document">Resume<i class=' ml-1 bx bx-download' ></i></a>
       </li>
 
       

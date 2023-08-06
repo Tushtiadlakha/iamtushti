@@ -7,7 +7,7 @@ const Project = () => {
     <div id="projects" class="h-full">
       {Projects?.length > 0 &&
         <div class="pt-20 container mx-auto lg:px-20" >
-          <h2 class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2 font-serif underline underline-offset-8 ">Projects</h2>
+          <h2 class="text-3xl text-center md:text-left md:text-4xl leading-normal md:leading-relaxed mb-2 font-serif underline underline-offset-8 ">Projects</h2>
           <div class='flex-wrap grid sm:grid-cols-1 md:grid-cols-3 gap-7 pb-10'>
           {Projects.map((x, index) =>
             

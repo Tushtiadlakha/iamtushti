@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-<div class="fixed bottom-4 left-1/2 transform -translate-x-1/2 inline-flex left-0 mx-auto justify-between bg-[#ffffff] bg-opacity-10 w-11/12 rounded-3xl">
+<div class="fixed bottom-4 left-1/2 transform -translate-x-1/2 inline-flex left-0 mx-auto justify-between bg-[#ffffff] bg-opacity-10 md:w-11/12 rounded-3xl">
       <a
         aria-current="page"
         class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 text-blue-400 flex-grow"

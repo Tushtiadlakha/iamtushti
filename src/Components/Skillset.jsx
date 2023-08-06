@@ -5,7 +5,7 @@ const Skillset = () => {
   return (
     <>
         <section id="skills" className='container mx-auto lg:px-20 my-28'>
-        <h3 class="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2 font-serif underline underline-offset-8">Skill Set</h3>
+        <h3 class="text-3xl text-center md:text-left md:text-4xl leading-normal md:leading-relaxed mb-2 font-serif underline underline-offset-8">Skill Set</h3>
         {Skills?.length > 0 &&
         <div className='pl-3'>
           <div className='my-7 grid gap-5 grid-cols-3 md:grid-cols-6 content-center'>
